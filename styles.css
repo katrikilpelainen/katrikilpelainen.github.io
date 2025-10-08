@@ -9,7 +9,6 @@ html,
 body {
     height: 100%;
     background-color: #0d0d0d;
-    /* taustaväri */
     background-image: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -55,9 +54,8 @@ body {
 @media (max-width: 768px) {
     .hero-banner {
         padding-top: 60px;
-        /* Tilaa kiinteälle valikolle */
         height: 40vh;
-        /* Voit säätää korkeutta jos haluat */
+       
     }
 }
 
@@ -71,7 +69,6 @@ main.content {
     background-size: cover;
     background-position: center;
     color: #0d0d0d;
-    /* cv teksti */
 }
 
 .contact-me {
@@ -201,7 +198,6 @@ main.content {
 .nav-links {
     display: flex;
     flex-direction: row;
-    /* tekee linkeistä vierekkäisiä */
     justify-content: center;
     gap: 20px;
 }
@@ -280,7 +276,6 @@ body.portfolio-p {
     max-width: 400px;
     margin: 350px auto;
     color: #0d0d0d;
-    /* pf -sivun teksti */
 }
 
 .laatikko2 {
@@ -376,5 +371,6 @@ body.portfolio-p {
     .dreams-grid {
         grid-template-columns: 1fr;
     }
+
 
 }
